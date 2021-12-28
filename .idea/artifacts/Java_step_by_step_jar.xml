@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Java_step_by_step:jar">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="Java_step_by_step.jar">
+      <element id="module-output" name="Java_step_by_step" />
+    </root>
+  </artifact>
+</component>
