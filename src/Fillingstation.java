@@ -3,21 +3,25 @@ public class Fillingstation {
         System.out.println("Система расчета стоймости топлива");
 
         int fuelType = 95;
-        int amount = 50;
+        int amount = 420;
+        int maxAmount = 400;
 
         double fuel92price = 60.2;
         double fuel95price = 67.33;
 
         double fuelPrice = 0;
-        if(fuelType == 92) {
+        if (fuelType == 92) {
             fuelPrice = fuel92price;
         }
 
-       else if(fuelType == 95) {
+       else if (fuelType == 95) {
             fuelPrice = fuel95price;
         } else {
             System.out.println("Указан неверный тип топлива");
         }
+       if (amount > maxAmount){
+           System.out.println("Указанное количество топлива превышает максимально допустимое");
+       }
 
        if (amount < 1) {
            System.out.println("Указано слишком малое количество топлива");
