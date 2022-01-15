@@ -4,13 +4,13 @@ public class Book {
     private final String    name;
     private final String    author;
     private final int       pagesQuantity;
-    private final int       ISBN;
+    private final int       isbn;
 
-    public Book(String name, String author, int pagesQuantity, int ISBN) {
+    public Book(String name, String author, int pagesQuantity, int isbn) {
         this.name = name;
         this.author = author;
         this.pagesQuantity = pagesQuantity;
-        this.ISBN = ISBN;
+        this.isbn = isbn;
     }
 
     public String getName() {
@@ -26,6 +26,6 @@ public class Book {
     }
 
     public int getISBN() {
-        return ISBN;
+        return isbn;
     }
 }
