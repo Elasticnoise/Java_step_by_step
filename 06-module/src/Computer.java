@@ -5,6 +5,7 @@ public class Computer {
     public final String name;
 
     Processor processor = new Processor(1.4f, 8, "Intel", 1.3f);
+    /*TODO Upper keyses is okey here?*/
     RAM ram = new RAM("LPDDR3", 8, 0.1f);
     Storage storage = new Storage(StorageType.SSD, 1000, 200.0f);
     Display display = new Display(13.3f, DisplayType.IPS, 140.0f);
